@@ -60,7 +60,7 @@ body {
 	width: 100%;
 	height: 8.88888888888889vh;
 	background-color: #6200EA;
-	text-align: center;
+	
 	display: table;
 }
 
@@ -99,6 +99,7 @@ body {
 
 .main {
 	width: 100%;
+	
 
 	
 }
@@ -111,15 +112,29 @@ body {
 
 .navbar a {
 	text-decoration: none;
-	margin-right: 35px;
-	margin-left: 35px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.header {
+	background-color: pink;
 }
 
 .header-stuff {
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
+
+	width: 100%;
 }
+
+.button-wrapper {
+	width: 69.375vw;
+	
+	background-color: gray;
+	margin: auto;
+}
+
 
 .button {
 	float: left;
@@ -128,7 +143,7 @@ body {
 	height: 4.444444444444445vh;
 	border-radius: 24px;
 	opacity: 1;
-	margin-left: 15.312500000000002vw;
+
 	margin-top: 0.8333333333333334vh;
 	font-size: 15px;
 	font-style: bold;
@@ -136,10 +151,12 @@ body {
 	border: none;
 }
 
+
+
 #logo {
 	height: 5.555555555555555vh;
 	width: 11.25vw;
-	margin-left: -15.312500000000002vw;
+	margin-left: 19.0625vw;
 }
 
 .bg-50 {
@@ -193,6 +210,7 @@ body {
 	height: 38.888888888888886vh;
 	border-radius: 15px;
 	opacity: 1;
+
 }
 
 .footer-bg {
@@ -204,12 +222,12 @@ body {
 
 
 .bg-160 {
-	padding-top: 20px;
-	padding-left: 20px;
 	height: 17.77777777777778vh;
 	background-color: white;
 	width: 100%;
 	border: 1px solid black;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
 .bg-60 {
@@ -298,6 +316,7 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
+	margin-left: 20px;
 }
 
 .unknown {
@@ -351,6 +370,8 @@ h2 {
 	letter-spacing: 2.4px;
 	text-transform: uppercase;
 	opacity: 1;
+	text-align: left;
+	line-height: 15px;
 }
 
 .wrapper h3, .article4 h3, .article5 h3, .article6 h3 {
@@ -389,6 +410,44 @@ h2 {
 	padding-top: 2.4930747922437675vh;
 }
 
-.bg-50d {
+.button h3 {
+	font-size: 12px;
+}
+
+.bg-60d {
+	padding-top: 2.4930747922437675vh;
+}
+
+.bg-50s {
+	text-align: left;
+	padding-left: 30px;
+}
+
+.bg-50s h4 {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.4px;
+	color: #211138;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+.main-text {
+		padding-top: 60px;
+		padding-left: 60px;
+}
+
+.main-text h3, h2, p {
+	margin-bottom: 15px;
+}
+
+.main-text p {
+	font-size: 20px;
+	letter-spacing: 0px;
+	opacity: 1;
+	line-height: 30px;
+		width: 610px;
+	height: 90px;
+	text-align: left;
 
 }
