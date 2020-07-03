@@ -213,11 +213,6 @@ body {
 
 }
 
-.footer-bg {
-	height: 11.11111111111111vh;
-	width: 100%;
-	background-color: #211138;
-}
 
 
 
@@ -358,7 +353,7 @@ h3 {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 2.5rem;
 	color: white;
 	font-weight: bold;
 }
@@ -418,9 +413,29 @@ h2 {
 	padding-top: 2.4930747922437675vh;
 }
 
+.bg-60d p {
+	text-align: center;
+	color: #B2ACBA;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+}
+
 .bg-50s {
 	text-align: left;
 	padding-left: 30px;
+}
+
+.bg-50 p {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
 }
 
 .bg-50s h4 {
@@ -430,24 +445,97 @@ h2 {
 	color: #211138;
 	text-transform: uppercase;
 	opacity: 1;
+	margin-top: 1.9444444444444444vh;
+	line-height: 15px;
 }
 
 .main-text {
-		padding-top: 60px;
-		padding-left: 60px;
+		padding-top: 6.666666666666667vh;
+		padding-left: 3.75vw;
 }
 
-.main-text h3, h2, p {
-	margin-bottom: 15px;
+.main-text h3, h2, p, button {
+	margin-bottom: 1.6666666666666667vh;
 }
 
-.main-text p {
+.main-text2 p {
 	font-size: 20px;
 	letter-spacing: 0px;
 	opacity: 1;
 	line-height: 30px;
-		width: 610px;
-	height: 90px;
+	height: 10vh;
 	text-align: left;
 
 }
+
+.main-text2 button {
+	width: 10vw;
+	height: 4.444444444444445vh;
+	border-radius: 24px;
+	border-color: #6200EA;
+	opacity: 100%;
+}
+
+.main-text2 {
+	padding-top: 6.666666666666667vh;
+	padding-right: 3.75vw;
+	padding-bottom: 6.666666666666667vh;
+	padding-left: 3.75vw;
+}
+
+.main-text2 h3, h2, p, button {
+	margin-bottom: 1.6666666666666667vh;
+}
+
+.article4 {
+	position: relative;
+}
+
+.main-text3 {
+	width: 38.125vw;
+	height: 26.666666666666668vh;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.articles button {
+		font-size: 12px;
+		line-height: 15px;
+		letter-spacing: 2.4px;
+		color: #6200EA;
+		font-weight: bold;
+		text-transform: uppercase;
+		width: 10vw;
+		height: 4.444444444444445vh;
+		border-radius: 24px;
+		border: 2px solid #6200EA;
+		background-color: transparent;
+	}
+.article1 button {
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+}
+.footer {
+	display: table;
+		height: 11.11111111111111vh;
+	width: 100%;
+	background-color: #211138;
+}
+.footer-bg {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: : bold;
+	line-height: 15px;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+	color: #B2ACBA;
+}
+
+.footer-bg p2 {
+	color: #6200EA;
+}
+
